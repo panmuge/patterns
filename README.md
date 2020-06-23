@@ -21,9 +21,9 @@ fixing    | 查漏补缺修改中
 
   - 符合PSR的PHP编程规范(含个人建议)
 
-    - [实例](https://github.com/TIGERB/easy-tips/blob/master/php/standard.php)
-    - [文档](https://github.com/TIGERB/easy-tips/blob/master/php/standard.md)
-    - [经验](https://github.com/TIGERB/easy-tips/blob/master/php/artisan.md)
+    - [实例](https://github.com/panmuge/patterns/blob/master/php/standard.php)
+    - [文档](https://github.com/panmuge/patterns/blob/master/php/standard.md)
+    - [经验](https://github.com/panmuge/patterns/blob/master/php/artisan.md)
 
   - 基础知识[读(R)好(T)文(F)档(M)]
     - [数据类型](http://php.net/manual/zh/language.types.php)
@@ -42,7 +42,7 @@ fixing    | 查漏补缺修改中
       - [5.4](http://php.net/manual/zh/migration54.new-features.php)
       - [5.3](http://php.net/manual/zh/migration53.new-features.php)
 
-  - [记一些坑](https://github.com/TIGERB/easy-tips/blob/master/pit.md#记一些坑)
+  - [记一些坑](https://github.com/panmuge/patterns/blob/master/pit.md#记一些坑)
 
 - PHP深入学习(doing)
   - 理解yield
@@ -63,23 +63,23 @@ fixing    | 查漏补缺修改中
   
 - Mysql(doing)
 
-  - [常用sql语句](https://github.com/TIGERB/easy-tips/blob/master/mysql/sql.md)
-  - [引擎](https://github.com/TIGERB/easy-tips/blob/master/mysql/base.md#引擎)
+  - [常用sql语句](https://github.com/panmuge/patterns/blob/master/mysql/sql.md)
+  - [引擎](https://github.com/panmuge/patterns/blob/master/mysql/base.md#引擎)
     - InnoDB
     - MyISAM
     - Memory
     - Archive
     - Blackhole\CSV\Federated\merge\NDB
-  - [事务](https://github.com/TIGERB/easy-tips/blob/master/mysql/base.md#事务)
+  - [事务](https://github.com/panmuge/patterns/blob/master/mysql/base.md#事务)
     + 原子性（Atomicity）
     + 一致性（Consistency）
-    + [隔离性（Isolation）](https://github.com/TIGERB/easy-tips/blob/master/mysql/base.md#mysql数据库为我们提供的四种隔离级别)
+    + [隔离性（Isolation）](https://github.com/panmuge/patterns/blob/master/mysql/base.md#mysql数据库为我们提供的四种隔离级别)
       * READ UNCOMMITTED:未提交读
       * READ COMMITTED：提交读/不可重复读
       * REPEATABLE READ：可重复读(MYSQL默认事务隔离级别)
       * SERIALIZEABLE：可串行化
     + 持久性（Durability）
-  - [索引](https://github.com/TIGERB/easy-tips/blob/master/mysql/base.md#索引)
+  - [索引](https://github.com/panmuge/patterns/blob/master/mysql/base.md#索引)
     + 建立表结构时添加的索引
       * 主键唯一索引
       * 唯一索引
@@ -94,7 +94,7 @@ fixing    | 查漏补缺修改中
       * b-tree索引
       * b+tree索引
     
-  - [锁](https://github.com/TIGERB/easy-tips/blob/master/mysql/base.md#锁)
+  - [锁](https://github.com/panmuge/patterns/blob/master/mysql/base.md#锁)
     - 悲观锁
     - 乐观锁
   - 分表
@@ -108,18 +108,18 @@ fixing    | 查漏补缺修改中
   - 常用命令
   - 实现原理&与memcache区别
   - 常见使用场景实现
-    - [缓存](https://github.com/TIGERB/easy-tips/blob/master/redis/cache.php)
-    - [队列](https://github.com/TIGERB/easy-tips/blob/master/redis/queue.php)
-    - [悲观锁](https://github.com/TIGERB/easy-tips/blob/master/redis/pessmistic-lock.php)
-    - [乐观锁](https://github.com/TIGERB/easy-tips/blob/master/redis/optimistic-lock.php)
-    - [订阅/推送](https://github.com/TIGERB/easy-tips/blob/master/redis/subscribe-publish)
+    - [缓存](https://github.com/panmuge/patterns/blob/master/redis/cache.php)
+    - [队列](https://github.com/panmuge/patterns/blob/master/redis/queue.php)
+    - [悲观锁](https://github.com/panmuge/patterns/blob/master/redis/pessmistic-lock.php)
+    - [乐观锁](https://github.com/panmuge/patterns/blob/master/redis/optimistic-lock.php)
+    - [订阅/推送](https://github.com/panmuge/patterns/blob/master/redis/subscribe-publish)
   - 常见业务实际使用
   - redis的基础数据结构
 
 - Docker
-  - [redis主从搭建](https://github.com/TIGERB/easy-tips/blob/master/docker/redis-master-slave/README.md)
-  - [mysql主从搭建](https://github.com/TIGERB/easy-tips/blob/master/docker/mysql-master-slave/README.md)
-  - [codis环境](https://github.com/TIGERB/easy-tips/blob/master/docker/codis/README.md)
+  - [redis主从搭建](https://github.com/panmuge/patterns/blob/master/docker/redis-master-slave/README.md)
+  - [mysql主从搭建](https://github.com/panmuge/patterns/blob/master/docker/mysql-master-slave/README.md)
+  - [codis环境](https://github.com/panmuge/patterns/blob/master/docker/codis/README.md)
   - mysql多主环境
   - kafka的环境搭建和使用
   - rabbitMQ的环境搭建和使用
@@ -131,43 +131,43 @@ fixing    | 查漏补缺修改中
 
 - 设计模式(done/fixing)
 
-  - [概念](https://github.com/TIGERB/easy-tips/blob/master/patterns/thought.md#设计模式)
+  - [概念](https://github.com/panmuge/patterns/blob/master/patterns/thought.md#设计模式)
 
   - 创建型模式实例
 
-    - [单例模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/singleton/test.php)
-    - [工厂模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/factory/test.php)
-    - [抽象工厂模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/factoryAbstract/test.php)
-    - [原型模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/prototype/test.php)
-    - [建造者模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/produce/test.php)
+    - [单例模式](https://github.com/panmuge/patterns/blob/master/patterns/singleton/test.php)
+    - [工厂模式](https://github.com/panmuge/patterns/blob/master/patterns/factory/test.php)
+    - [抽象工厂模式](https://github.com/panmuge/patterns/blob/master/patterns/factoryAbstract/test.php)
+    - [原型模式](https://github.com/panmuge/patterns/blob/master/patterns/prototype/test.php)
+    - [建造者模式](https://github.com/panmuge/patterns/blob/master/patterns/produce/test.php)
 
   - 结构型模式实例
 
-    - [桥接模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/bridge/test.php)
-    - [享元模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/flyweight/test.php)
-    - [外观模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/facade/test.php)
-    - [适配器模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/adapter/test.php)
-    - [装饰器模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/decorator/test.php)
-    - [组合模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/composite/test.php)
-    - [代理模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/proxy/test.php)
-    - [过滤器模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/filter/test.php)
+    - [桥接模式](https://github.com/panmuge/patterns/blob/master/patterns/bridge/test.php)
+    - [享元模式](https://github.com/panmuge/patterns/blob/master/patterns/flyweight/test.php)
+    - [外观模式](https://github.com/panmuge/patterns/blob/master/patterns/facade/test.php)
+    - [适配器模式](https://github.com/panmuge/patterns/blob/master/patterns/adapter/test.php)
+    - [装饰器模式](https://github.com/panmuge/patterns/blob/master/patterns/decorator/test.php)
+    - [组合模式](https://github.com/panmuge/patterns/blob/master/patterns/composite/test.php)
+    - [代理模式](https://github.com/panmuge/patterns/blob/master/patterns/proxy/test.php)
+    - [过滤器模式](https://github.com/panmuge/patterns/blob/master/patterns/filter/test.php)
 
   - 行为型模式实例
 
-    - [模板模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/template/test.php)
-    - [策略模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/strategy/test.php)
-    - [状态模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/state/test.php)
-    - [观察者模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/observer/test.php)
-    - [责任链模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/chainOfResponsibility/test.php)
-    - [访问者模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/visitor/test.php)
-    - [解释器模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/interpreter/test.php)
-    - [备忘录模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/memento/test.php)
-    - [命令模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/command/test.php)
-    - [迭代器模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/iterator/test.php)
-    - [中介者器模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/mediator/test.php)
-    - [空对象模式](https://github.com/TIGERB/easy-tips/blob/master/patterns/nullObject/test.php)
+    - [模板模式](https://github.com/panmuge/patterns/blob/master/patterns/template/test.php)
+    - [策略模式](https://github.com/panmuge/patterns/blob/master/patterns/strategy/test.php)
+    - [状态模式](https://github.com/panmuge/patterns/blob/master/patterns/state/test.php)
+    - [观察者模式](https://github.com/panmuge/patterns/blob/master/patterns/observer/test.php)
+    - [责任链模式](https://github.com/panmuge/patterns/blob/master/patterns/chainOfResponsibility/test.php)
+    - [访问者模式](https://github.com/panmuge/patterns/blob/master/patterns/visitor/test.php)
+    - [解释器模式](https://github.com/panmuge/patterns/blob/master/patterns/interpreter/test.php)
+    - [备忘录模式](https://github.com/panmuge/patterns/blob/master/patterns/memento/test.php)
+    - [命令模式](https://github.com/panmuge/patterns/blob/master/patterns/command/test.php)
+    - [迭代器模式](https://github.com/panmuge/patterns/blob/master/patterns/iterator/test.php)
+    - [中介者器模式](https://github.com/panmuge/patterns/blob/master/patterns/mediator/test.php)
+    - [空对象模式](https://github.com/panmuge/patterns/blob/master/patterns/nullObject/test.php)
 
-- [数据结构(doing)](https://github.com/TIGERB/easy-tips/blob/master/data-structure.md)
+- [数据结构(doing)](https://github.com/panmuge/patterns/blob/master/data-structure.md)
 
   - 数组
   - 堆/栈
@@ -187,20 +187,20 @@ fixing    | 查漏补缺修改中
 
     - 排序算法(α)
 
-      - [冒泡排序](https://github.com/TIGERB/easy-tips/blob/master/algorithm/sort/bubble.php)
-      - [快速排序](https://github.com/TIGERB/easy-tips/blob/master/algorithm/sort/quick.php)
-      - [选择排序](https://github.com/TIGERB/easy-tips/blob/master/algorithm/sort/select.php)
-      - [插入排序](https://github.com/TIGERB/easy-tips/blob/master/algorithm/sort/insert.php)
-      - [归并排序](https://github.com/TIGERB/easy-tips/blob/master/algorithm/sort/merge.php)
-      - [希尔排序](https://github.com/TIGERB/easy-tips/blob/master/algorithm/sort/shell.php)
-      - [基数排序](https://github.com/TIGERB/easy-tips/blob/master/algorithm/sort/radix.php)
+      - [冒泡排序](https://github.com/panmuge/patterns/blob/master/algorithm/sort/bubble.php)
+      - [快速排序](https://github.com/panmuge/patterns/blob/master/algorithm/sort/quick.php)
+      - [选择排序](https://github.com/panmuge/patterns/blob/master/algorithm/sort/select.php)
+      - [插入排序](https://github.com/panmuge/patterns/blob/master/algorithm/sort/insert.php)
+      - [归并排序](https://github.com/panmuge/patterns/blob/master/algorithm/sort/merge.php)
+      - [希尔排序](https://github.com/panmuge/patterns/blob/master/algorithm/sort/shell.php)
+      - [基数排序](https://github.com/panmuge/patterns/blob/master/algorithm/sort/radix.php)
 
 - 网络基础(doing)
 
-  - [互联网协议概述](https://github.com/TIGERB/easy-tips/blob/master/network/internet-protocol.md#互联网协议)
-  - [client和nginx简易交互过程](https://github.com/TIGERB/easy-tips/blob/master/network/nginx.md#client和nginx简易交互过程)
-  - [nginx和php-fpm简易交互过程](https://github.com/TIGERB/easy-tips/blob/master/network/nginx.md#nginx和php简易交互过程)
-  - [http](https://github.com/TIGERB/easy-tips/blob/master/network/http.md)
+  - [互联网协议概述](https://github.com/panmuge/patterns/blob/master/network/internet-protocol.md#互联网协议)
+  - [client和nginx简易交互过程](https://github.com/panmuge/patterns/blob/master/network/nginx.md#client和nginx简易交互过程)
+  - [nginx和php-fpm简易交互过程](https://github.com/panmuge/patterns/blob/master/network/nginx.md#nginx和php简易交互过程)
+  - [http](https://github.com/panmuge/patterns/blob/master/network/http.md)
     - 报文
       - 报文头部
       - 报文体
@@ -212,7 +212,7 @@ fixing    | 查漏补缺修改中
 
 - 计算机基础(doing)
 
-  - [linux常用命令](https://github.com/TIGERB/easy-tips/blob/master/linux/command.md)
+  - [linux常用命令](https://github.com/panmuge/patterns/blob/master/linux/command.md)
   - shell
 
 - 高并发相关(not-start)
@@ -292,11 +292,5 @@ Array
 count值为：1
 
 ```
-
-## 纠错
-
-如果大家发现有什么不对的地方，可以发起一个[issue](https://github.com/TIGERB/easy-tips/issues)或者[pull request](https://github.com/TIGERB/easy-tips),我会及时纠正，THX～
-
-> 补充:发起pull request的commit message请参考文章[Commit message编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
 
