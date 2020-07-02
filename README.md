@@ -131,43 +131,43 @@ fixing    | 查漏补缺修改中
 
 - 设计模式(done/fixing)
 
-  - [概念](https://github.com/panmuge/patterns/blob/master/patterns/thought.md#设计模式)
+  - [概念](https://github.com/panmuge/patterns/blob/master/demopatterns/thought.md#设计模式)
 
   - 创建型模式实例
 
-    - [单例模式](https://github.com/panmuge/patterns/blob/master/patterns/singleton/test.php)
-    - [工厂模式](https://github.com/panmuge/patterns/blob/master/patterns/factory/test.php)
-    - [抽象工厂模式](https://github.com/panmuge/patterns/blob/master/patterns/factoryAbstract/test.php)
-    - [原型模式](https://github.com/panmuge/patterns/blob/master/patterns/prototype/test.php)
-    - [建造者模式](https://github.com/panmuge/patterns/blob/master/patterns/produce/test.php)
+    - [单例模式](https://github.com/panmuge/patterns/blob/master/demopatterns/singleton/test.php)
+    - [工厂模式](https://github.com/panmuge/patterns/blob/master/demopatterns/factory/test.php)
+    - [抽象工厂模式](https://github.com/panmuge/patterns/blob/master/demopatterns/factoryAbstract/test.php)
+    - [原型模式](https://github.com/panmuge/patterns/blob/master/demopatterns/prototype/test.php)
+    - [建造者模式](https://github.com/panmuge/patterns/blob/master/demopatterns/produce/test.php)
 
   - 结构型模式实例
 
-    - [桥接模式](https://github.com/panmuge/patterns/blob/master/patterns/bridge/test.php)
-    - [享元模式](https://github.com/panmuge/patterns/blob/master/patterns/flyweight/test.php)
-    - [外观模式](https://github.com/panmuge/patterns/blob/master/patterns/facade/test.php)
-    - [适配器模式](https://github.com/panmuge/patterns/blob/master/patterns/adapter/test.php)
-    - [装饰器模式](https://github.com/panmuge/patterns/blob/master/patterns/decorator/test.php)
-    - [组合模式](https://github.com/panmuge/patterns/blob/master/patterns/composite/test.php)
-    - [代理模式](https://github.com/panmuge/patterns/blob/master/patterns/proxy/test.php)
-    - [过滤器模式](https://github.com/panmuge/patterns/blob/master/patterns/filter/test.php)
+    - [桥接模式](https://github.com/panmuge/patterns/blob/master/demopatterns/bridge/test.php)
+    - [享元模式](https://github.com/panmuge/patterns/blob/master/demopatterns/flyweight/test.php)
+    - [外观模式](https://github.com/panmuge/patterns/blob/master/demopatterns/facade/test.php)
+    - [适配器模式](https://github.com/panmuge/patterns/blob/master/demopatterns/adapter/test.php)
+    - [装饰器模式](https://github.com/panmuge/patterns/blob/master/demopatterns/decorator/test.php)
+    - [组合模式](https://github.com/panmuge/patterns/blob/master/demopatterns/composite/test.php)
+    - [代理模式](https://github.com/panmuge/patterns/blob/master/demopatterns/proxy/test.php)
+    - [过滤器模式](https://github.com/panmuge/patterns/blob/master/demopatterns/filter/test.php)
 
   - 行为型模式实例
 
-    - [模板模式](https://github.com/panmuge/patterns/blob/master/patterns/template/test.php)
-    - [策略模式](https://github.com/panmuge/patterns/blob/master/patterns/strategy/test.php)
-    - [状态模式](https://github.com/panmuge/patterns/blob/master/patterns/state/test.php)
-    - [观察者模式](https://github.com/panmuge/patterns/blob/master/patterns/observer/test.php)
-    - [责任链模式](https://github.com/panmuge/patterns/blob/master/patterns/chainOfResponsibility/test.php)
-    - [访问者模式](https://github.com/panmuge/patterns/blob/master/patterns/visitor/test.php)
-    - [解释器模式](https://github.com/panmuge/patterns/blob/master/patterns/interpreter/test.php)
-    - [备忘录模式](https://github.com/panmuge/patterns/blob/master/patterns/memento/test.php)
-    - [命令模式](https://github.com/panmuge/patterns/blob/master/patterns/command/test.php)
-    - [迭代器模式](https://github.com/panmuge/patterns/blob/master/patterns/iterator/test.php)
-    - [中介者器模式](https://github.com/panmuge/patterns/blob/master/patterns/mediator/test.php)
-    - [空对象模式](https://github.com/panmuge/patterns/blob/master/patterns/nullObject/test.php)
+    - [模板模式](https://github.com/panmuge/patterns/blob/master/demopatterns/template/test.php)
+    - [策略模式](https://github.com/panmuge/patterns/blob/master/demopatterns/strategy/test.php)
+    - [状态模式](https://github.com/panmuge/patterns/blob/master/demopatterns/state/test.php)
+    - [观察者模式](https://github.com/panmuge/patterns/blob/master/demopatterns/observer/test.php)
+    - [责任链模式](https://github.com/panmuge/patterns/blob/master/demopatterns/chainOfResponsibility/test.php)
+    - [访问者模式](https://github.com/panmuge/patterns/blob/master/demopatterns/visitor/test.php)
+    - [解释器模式](https://github.com/panmuge/patterns/blob/master/demopatterns/interpreter/test.php)
+    - [备忘录模式](https://github.com/panmuge/patterns/blob/master/demopatterns/memento/test.php)
+    - [命令模式](https://github.com/panmuge/patterns/blob/master/demopatterns/command/test.php)
+    - [迭代器模式](https://github.com/panmuge/patterns/blob/master/demopatterns/iterator/test.php)
+    - [中介者器模式](https://github.com/panmuge/patterns/blob/master/demopatterns/mediator/test.php)
+    - [空对象模式](https://github.com/panmuge/patterns/blob/master/demopatterns/nullObject/test.php)
 
-- [数据结构(doing)](https://github.com/panmuge/patterns/blob/master/data-structure.md)
+- [数据结构(doing)](https://github.com/panmuge/patterns/blob/master/data-structure/data-structure.md)
 
   - 数组
   - 堆/栈
